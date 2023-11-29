@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="Z_Devoir_EAR">
+        <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
+        <dependent-module archiveName="Z_Devoir_Client-Web.war" deploy-path="/" handle="module:/resource/Z_Devoir_Client-Web/Z_Devoir_Client-Web">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="Z_Devoir_Server.jar" deploy-path="/" handle="module:/resource/Z_Devoir_Server/Z_Devoir_Server">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>
